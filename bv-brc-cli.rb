@@ -5,6 +5,11 @@ class BvBrcCli < Formula
   sha256 "3e72eeb32bf06b465b5751a614216e34eab094663fc3885c0ee74822aee3d224"
   license "MIT"
 
+  bottle do
+    rebuild 1
+    sha256 arm64_sequoia: "7324e0b1fedb479b82186b38a05f65d7b7d1756f0402feb42723addede255c7f"
+  end
+
   depends_on "bowtie2"
   depends_on "perl"
 
