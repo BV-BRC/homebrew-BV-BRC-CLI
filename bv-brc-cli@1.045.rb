@@ -1,4 +1,4 @@
-class BvBrcCli1045 < Formula
+class BvBrcCliAT1045 < Formula
   desc "BV-BRC Command-line Interface"
   homepage "https://www.bv-brc.org/"
   url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.045/BV-BRC-CLI-1.045.tgz"
