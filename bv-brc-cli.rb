@@ -12,8 +12,6 @@ class BvBrcCli < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "d5d7737ea1008488981ea0461e2cfbd336b2f8c2356b7b09c3140f9b4caeb8ee"
   end
 
-  end
-
   depends_on "bowtie2"
   depends_on "perl"
 
