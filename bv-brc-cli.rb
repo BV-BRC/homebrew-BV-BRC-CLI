@@ -1,8 +1,8 @@
 class BvBrcCli < Formula
   desc "BV-BRC Command-line Interface"
   homepage "https://www.bv-brc.org/"
-  url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.045/BV-BRC-CLI-1.045.tgz"
-  sha256 "9b9f957957b4819f09be6ddec32b0d081364da0032a2c923f5a0722c0f8890e5"
+  url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.046/BV-BRC-CLI-1.046.tgz"
+  sha256 "204677ca4faca3192135d44fd595c88d27f2ae5550ac92b1f859123f56e5920c"
   license "MIT"
 
   bottle do
