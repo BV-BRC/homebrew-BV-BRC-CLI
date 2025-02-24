@@ -2,7 +2,7 @@ class BvBrcCliAT1045 < Formula
   desc "BV-BRC Command-line Interface"
   homepage "https://www.bv-brc.org/"
   url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.045/BV-BRC-CLI-1.045.tgz"
-  sha256 "667926107544e727b57276d9d919c8fa6c153856627e9bb2ba82ce05241e871d"
+  sha256 "9b9f957957b4819f09be6ddec32b0d081364da0032a2c923f5a0722c0f8890e5"
   license "MIT"
 
   depends_on "bowtie2"
