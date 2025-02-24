@@ -1,27 +1,9 @@
-class BvBrcCli < Formula
+class BvBrcCliAT1045 < Formula
   desc "BV-BRC Command-line Interface"
   homepage "https://www.bv-brc.org/"
-  url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.044/BV-BRC-CLI-1.044.tgz"
-  sha256 "667926107544e727b57276d9d919c8fa6c153856627e9bb2ba82ce05241e871d"
+  url "https://github.com/BV-BRC/BV-BRC-CLI/releases/download/1.045/BV-BRC-CLI-1.045.tgz"
+  sha256 "9b9f957957b4819f09be6ddec32b0d081364da0032a2c923f5a0722c0f8890e5"
   license "MIT"
-
-  bottle do
-    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.044"
-    rebuild 2
-    sha256 cellar: :any, arm64_sequoia: "bc8cd515cfb379ee21700ec8401159154c20407d9586253c5615b4235fb2d258"
-  end
-
-  bottle do
-    rebuild 3
-    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.044"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "ddace8f4209f9b13bc4ef6563618da041eef6bfa1d5d679a1863f05ddb2027e9"
-  end
-
-  bottle do
-    rebuild 4
-    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.044"
-    sha256 cellar: :any, sequoia: "89d8f38f8980191df08d5921327f0c09d1fa35812d5fd9ed408fdc9fc9e01a7b"
-  end
 
   depends_on "bowtie2"
   depends_on "perl"
