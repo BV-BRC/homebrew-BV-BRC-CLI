@@ -6,6 +6,7 @@ class BvBrcCli < Formula
   license "MIT"
 
   bottle do
+    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.048"
     rebuild 1
     sha256 cellar: :any, arm64_sequoia: "b3fca9ac750e130f7955dc56029d3c4188550e504f1317619cade379d8b593f8"
     sha256 cellar: :any, sequoia:       "668486f8d25d3f2be1505e052411fa800e8119c88905266838293247ec513709"
