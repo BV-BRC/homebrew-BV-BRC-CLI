@@ -5,12 +5,11 @@ class BvBrcCli < Formula
   sha256 "1938212c96d4824166c1aebc411033505272e4792c5c5f7f4b5c0144821a89bb"
   license "MIT"
 
-#  bottle do
-#    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.046"
-#    rebuild 2
-#    sha256 cellar: :any_skip_relocation, x86_64_linux: "c93048ee663dba0302b92a18e1736859aab47268c833a911aa5af04585973705"
-#    sha256 cellar: :any, arm64_sequoia: "7352b36a31b62dd65b9f98a85862680966e682af77981ebdc5884a4def893a54"
-#  end
+  bottle do
+    rebuild 1
+    root_url "https://github.com/BV-BRC/homebrew-BV-BRC-CLI/releases/download/1.048"
+    sha256 cellar: :any, arm64_sequoia: "10a3326bd69028e4e9decad2535ac70444ad13eeb2b9ea543240cdfa3ac5d8f9"
+  end
 
   depends_on "bowtie2"
   depends_on "perl"
